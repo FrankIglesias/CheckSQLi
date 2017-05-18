@@ -7,8 +7,8 @@ for carg in sys.argv:
             argnum = sys.argv.index(carg)
             argnum+=1
             fullurl = sys.argv[argnum] #Cargo el argumento a la url
-             """Agrego a la url la sentencia and persona = 'enrique'
-             #esto me deberia dar un error de sintaxis o al menos decirme que no existe la columna"""
+             """Agrego a la url la sentencia and persona enrique
+             esto me deberia dar un error de sintaxis o al menos decirme que no existe la columna"""
             resp = urllib.request.urlopen(fullurl + "%20and%20persona%20=%20%27enrique%27")
             body = resp.read()
             fullbody= body.decode('utf-8')
