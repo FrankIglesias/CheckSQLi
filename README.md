@@ -1,5 +1,5 @@
 # CheckSQLi
-Programa en python para detectar SQLinjection
+Programa en python para detectar SQLinjection <br>
 Intrucciones: 
 python Script-sqli.py -w \<url\>
 Ejemplos:
